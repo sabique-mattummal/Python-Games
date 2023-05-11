@@ -3,7 +3,7 @@ import turtle as tr
 #import modules from classes
 from paddle import Paddle
 from ball import Ball
-from scoreboard_1 import Scoreboard
+from scoreboard import Scoreboard
 from ui import UI
 from bricks import Bricks
 import time
