@@ -23,7 +23,7 @@ class Scoreboard(Turtle):
 
 	def update_score(self):
 		self.clear()
-		self.write(f"The classic Classic Breakout Game\nScore: {self.score} | Highest Score: \
+		self.write(f"Score: {self.score} | Highest Score: \
 		{self.highScore}\n Lives: {self.lives}", align='left',
 				font=FONT)
 
